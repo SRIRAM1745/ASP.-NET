@@ -1,0 +1,13 @@
+8.45am-9.00am Brainstroming with team
+9.00am-9.15am Mail checking
+9.15am-10.20am Working on system architecture
+10.20am-11.00am Working on NFR
+11.00am-12.30pm Understanding the service,database diagram,data model done by the organization.
+12.30pm-1.15pm Lunch
+1.30pm-2.45pm review seesion with Rafi
+3.00pm-4.00pm Timesheet and SVN session
+4.00pm-4.30pm Tea break
+4.30pm-5.00pm discussion about the work split in team
+
+
+ 
