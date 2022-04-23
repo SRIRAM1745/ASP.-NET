@@ -1,3 +1,14 @@
 .bcontent {
     margin-left: 10px;
 }
+.cursor:hover {
+    color: blue
+}
+
+.cursor {
+    cursor: pointer;
+ 
+}
+.bg-white{
+    margin-right: 200px;
+}
