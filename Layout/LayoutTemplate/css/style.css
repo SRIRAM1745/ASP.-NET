@@ -1,0 +1,229 @@
+:root {
+    --primary: #06A3DA;
+    --secondary: #F57E57;
+    --light: #EEF9FF;
+    --dark: #091E3E
+}
+
+h1,
+h2 {
+    font-weight: 700 !important
+}
+
+h3,
+h4 {
+    font-weight: 600 !important
+}
+
+h5,
+h6 {
+    font-weight: 500 !important
+}
+
+.btn {
+    font-family: Jost, sans-serif;
+    font-weight: 600;
+    transition: .5s
+}
+
+.btn-primary {
+    color: #fff
+}
+
+.btn-primary:hover {
+    background: var(--secondary);
+    border-color: var(--secondary)
+}
+
+.btn-square {
+    width: 36px;
+    height: 36px
+}
+
+.btn-sm-square {
+    width: 28px;
+    height: 28px
+}
+
+.btn-lg-square {
+    width: 46px;
+    height: 46px
+}
+
+.btn-lg-square,
+.btn-sm-square,
+.btn-square {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%
+}
+
+.back-to-top {
+    position: fixed;
+    display: none;
+    right: 45px;
+    bottom: 45px;
+    z-index: 99
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-family: Jost, sans-serif;
+    padding: 35px 15px;
+    font-size: 18px;
+    color: var(--dark);
+    outline: 0;
+    transition: .5s
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: var(--primary)
+}
+
+@media (max-width:991.98px) {
+    .navbar-light .navbar-nav .nav-link {
+        padding: 10px 0
+    }
+}
+
+.bg-appointment {
+    background: linear-gradient(rgba(9, 30, 62, .85), rgba(9, 30, 62, .85)), url(../img/carousel-1.jpg) center center no-repeat;
+    background-size: cover
+}
+
+.service-item .bg-light,
+.service-item .bg-light h5,
+.service-item img,
+.team-item .team-text {
+    transition: .5s
+}
+
+.service-item:hover img {
+    transform: scale(1.15)
+}
+
+.service-item .bg-light::after,
+.team-item .team-text::after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    bottom: 0;
+    left: 15px;
+    right: 15px;
+    border-radius: 100px/15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .7);
+    opacity: 0;
+    transition: .5s;
+    z-index: -1
+}
+
+.service-item:hover .bg-light::after,
+.team-item:hover .team-text::after {
+    opacity: 1
+}
+
+.price-carousel .owl-nav {
+    position: absolute;
+    width: calc(100% + 45px);
+    height: 45px;
+    top: calc(50% - 22.5px);
+    left: -22.5px;
+    display: flex;
+    justify-content: space-between;
+    opacity: 0;
+    transition: .5s
+}
+
+.price-carousel:hover .owl-nav {
+    opacity: 1
+}
+
+.bg-testimonial {
+    background: url(../img/carousel-2.jpg) center center no-repeat;
+    background-size: cover
+}
+
+.testimonial-carousel {
+    background: rgba(6, 163, 218, .85)
+}
+
+.testimonial-carousel .owl-nav {
+    position: absolute;
+    width: calc(100% + 46px);
+    height: 46px;
+    top: calc(50% - 23px);
+    left: -23px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1
+}
+
+.testimonial-carousel .owl-item img {
+    width: 120px;
+    height: 120px
+}
+
+.LogoImg {
+    height: 60px;
+    width: 60px;
+    margin-top: 7px;
+    margin-right: 20px
+}
+
+.dropdown-menu .dropdown-submenu {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: -7px;
+    }
+
+.content{
+        margin-right: 50px;
+        margin-left: 50px;
+}
+
+.container{
+    padding:30px;
+    margin-top: -30px;
+}
+.card{
+      height:100%;
+      width:100%;
+      
+}
+.card:hover{
+    background-color:lightskyblue;
+}
+
+
+.card-title{
+    text-align: center;
+}
+.img-content{
+    margin-left: 35px;
+    margin-right: 35px;
+    width: 10px;
+    height:10px;
+}
+.img{
+    width: 10px;
+    height:10px; 
+}
+.card-text{
+    margin-left: 35px;
+    margin-right: 35px;
+}
+.paginationcontainer{
+    align-items: center;
+}
+
+.title{
+    text-align: center;
+}
