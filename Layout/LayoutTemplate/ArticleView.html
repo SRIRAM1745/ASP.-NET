@@ -22,7 +22,6 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
-    <link href="css/ArticleView.css" rel="stylesheet">
 </head>
 <header>
     <!-- Navbar Start -->
@@ -89,9 +88,7 @@
                 </ol>
             </nav>
         </div>
-    </body>
-</div>
-<!-- Breadcrums End-->
+        <!-- Breadcrums End-->
 <div class="container p-5 my-5 border">
     <div class="text-center">
         <h1>Web API</h1>
@@ -142,28 +139,7 @@
             HTTP based services that can be accessed in different applications on different platforms such as web, windows, mobile etc. It works more or less the
             same way as ASP.NET MVC web application except that it sends data as a response instead of html view. It is
             like a webservice or WCF service but the exception is that it only supports HTTP protocol.</span></p>
-
-
         <button onclick="myFunction()" id="myBtn">Click here to view full article</button>
-
-        <script>
-            function myFunction() {
-                var dots = document.getElementById("dots");
-                var moreText = document.getElementById("more");
-                var btnText = document.getElementById("myBtn");
-
-                if (dots.style.display === "none") {
-                    dots.style.display = "inline";
-                    btnText.innerHTML = "Click here to view full article";
-                    moreText.style.display = "none";
-                } else {
-                    dots.style.display = "none";
-                    btnText.innerHTML = "Click here to view less article";
-                    moreText.style.display = "inline";
-                }
-            }
-        </script>
-    </div>
     </div>
     <div class="bg-white">
         <div class="d-flex flex-row fs-12">
@@ -172,35 +148,57 @@
             <div class="like p-2 cursor"><i class="fa fa-share"></i><span class="ml-1">Share</span></div>
         </div>
     </div>
-    <!-- Footer Start -->
-    <div class="container-fluid text-light footer" style="background: #051225;">
-        <div class="container">
-            <div class="row g-0">
-                <div class="col-md-4 text-center text-md-start">
-                    <p class="mb-md-0">&copy; <a class="text-white border-bottom">Aspire Overflow</a>. All Rights
-                        Reserved.</p>
-                </div>
-                <div class="col-md-4 text-center text-md-middle">
-                    <p class="mb-0 "> <a class="text-white">Address: 1/D-1,SIPCOT IT
-                            PARK,Siruseri,Chennai-603103</a><br>
-                    <p class="mb-0 "><i class=" fa fa-light fa-phone"></i><a class="text-white">
-                            Phone:+91-4467404000</a><br>
-                    <p class="mb-0 "> <i class="fa fa-light fa-envelope"></i><a class="text-white">
-                            Email:info-india@aspiresys.com</a><br>
-                </div>
-                <div class="col-md-4 text-center text-md-end">
-                    <p class="mb-0">Designed by <a class="text-white border-bottom">Team Aurora</a><br> </p>
-                </div>
+    </body>
+</div>
+</div>
+    <script>
+        function myFunction() {
+            var dots = document.getElementById("dots");
+            var moreText = document.getElementById("more");
+            var btnText = document.getElementById("myBtn");
+
+            if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "Click here to view full article";
+                moreText.style.display = "none";
+            } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Click here to view less article";
+                moreText.style.display = "inline";
+            }
+        }
+    </script>
+<!-- Footer Start -->
+<div class="container-fluid text-light " style="background: #051225;">
+    <div class="container">
+        <div class="row g-0">
+            <div class="col-md-4 text-center text-md-start">
+                <p class="mb-md-0">&copy; <a class="text-white border-bottom">Aspire Overflow</a>. All Rights
+                    Reserved.</p>
+            </div>
+            <div class="col-md-4 text-center text-md-middle">
+                <p class="mb-0 "> <a class="text-white">Address: 1/D-1,SIPCOT IT
+                        PARK,Siruseri,Chennai-603103</a><br>
+                <p class="mb-0 "><i class=" fa fa-light fa-phone"></i><a class="text-white">
+                        Phone:+91-4467404000</a><br>
+                <p class="mb-0 "> <i class="fa fa-light fa-envelope"></i><a class="text-white">
+                        Email:info-india@aspiresys.com</a><br>
+            </div>
+            <div class="col-md-4 text-center text-md-end">
+                <p class="mb-0">Designed by <a class="text-white border-bottom">Team Aurora</a><br>
+
+                </p>
             </div>
         </div>
     </div>
-    <!-- Footer End -->
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+</div>
+<!-- Footer End -->
+<!-- JavaScript Libraries -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
 
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+<!-- Template Javascript -->
+<script src="js/main.js"></script>
 
 
 </html>
