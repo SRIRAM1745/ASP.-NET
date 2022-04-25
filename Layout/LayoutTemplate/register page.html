@@ -2,145 +2,95 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>Aspire Overflow</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta charset="utf-8">
+	<title>Aspire Overflow</title>
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap"
-        rel="stylesheet">
+	<!-- Google Web Fonts -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap"
+		rel="stylesheet">
 
-    <!-- Icon Font Stylesheet -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+	<!-- Icon Font Stylesheet -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
 
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- Customized Bootstrap Stylesheet -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/registration.css" rel="stylesheet">
+	<!-- Template Stylesheet -->
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/login.css" rel="stylesheet">
+    <link href="css/Registration.css" rel="stylesheet">
 
 </head>
 
 <body>
-    <div class="row p-2">
-        <div class="img-container text-center ">
-            <a>
-                <img class="LogoImg" src="img/logo.png">
-            </a>
-            <span class="h1 fw-bold mb-0">Aspire Overflow</span>
-        </div>
-    </div>
-    <div class="content border ">
-        <div class="row  align-items-center justify-content-center">
-            <div class=" col-md-10  ">
-            <form action="#" method="post">
-                <div class="text-center">
-                    <h5>Registration</h5>
-                </div>
-                <div class="row p-2">
-                    <div class="col-md-3 center">
-                        <div class=" form-group-first ">
-                            <label for="fname">First Name</label>
-                            <input type="text" class="form-control " placeholder="First Name" id="fname">
+	<div class="container">
+		<div class="row">
+			<div class="img-container ">
+				<a>
+					<img class="LogoImg " src="img/logo.png">
+				</a>
+				<span class="h1 fw-bold mb-0">Aspire Overflow</span>
+			</div>
+		</div>
+		<div class=" col-xl-5 mx-auto">
+			<div class="card-body p-5 p-lg-5 border ">
+				<h5 class="card-title text-center ">Registration</h5>
+				<form>
+					<div class="row">
+                        <div class="col-md-6 mb-4">
+        
+                          <div class="form-outline datepicker">
+                            <label class="label" for="name">Email </label>
+                            <input type="text" class="form-control" >
+                          </div>
+        
                         </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="form-group first">
-                            <label for="lname">Last Name</label>
-                            <input type="text" class="form-control" placeholder="Last Name" id="lname">
-                        </div>
-                    </div>
-                </div>
-                <div class="row p-2">
-                    <div class="col-md-3">
-                        <div class="form-group first">
-                            <label for="fname">Ace Number</label>
-                            <input type="text" class="form-control" placeholder="First Name" id="fname">
-                        </div>
-                    </div>
-                    <div class="col-md-3 ">
-                        <label for="fname">Gender</label>
-                        <br>
-                        <select class="select">
-                            <option value="1" disabled>Gender</option>
-                            <option value="2">Female</option>
-                            <option value="3">Male</option>
-                            <option value="4">Other</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="row p-2">
-                    <div class="col-md-3">
-                        <div class="form-group first">
-                            <label for="fname">Mail Address</label>
-                            <input type="text" class="form-control" placeholder="Mail Address" id="fname">
-                        </div>
-                    </div>
-                </div>
-                <div class="row p-2">
-                    <div class="col-md-3">
-                        <div class="form-group first">
-                            <label for="birthday">Date Of Birth</label>
-                            <br>
-                            <input type="date" id="Date Of Birth" name="Date Of Birth">
-
-                        </div>
-                    </div>
-                </div>
-                <div class="row p-2">
-                    <div class="col-md-3">
-                        <div class="form-group first">
-                            <label for="fname">Password</label>
-                            <input type="text" class="form-control" placeholder="Mail Address" id="fname">
-                        </div>
-                    </div>
-                </div>
-                <div class="row p-2">
-                    <div class="col-md-3">
-                        <div class="form-group first">
-                            <label for="fname">Confirm Password</label>
-                            <input type="text" class="form-control" placeholder="Mail Address" id="fname">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="form-group-center">
-                    <button class="btn btn-lg btn-primary btn-login fw-bold text-uppercase" type="submit">Login</button>
-                </div>
-            </form>
-        </div>
-    </div>
-    </div>
+                        <div class="col-md-6 mb-4">
+        
+                            <div class="form-outline datepicker">
+                              <label class="label" for="name">Email </label>
+                              <input type="text" class="form-control" >
+                            </div>
+          
+                          </div>
+                      </div>
+				</form>
+			</div>
+		</div>
+	</div>
+	</div>
+	</div>
 </body>
 <!-- Footer Start -->
-<div class="container-fluid text-light " style="background: #051225;">
-    <div class="container">
-        <div class="row g-0">
-            <div class="col-md-4 text-center text-md-start">
-                <p class="mb-md-0">&copy; <a class="text-white border-bottom">Aspire Overflow</a>. All Rights
-                    Reserved.</p>
-            </div>
-            <div class="col-md-4 text-center text-md-middle">
-                <p class="mb-0 "> <a class="text-white">Address: 1/D-1,SIPCOT IT
-                        PARK,Siruseri,Chennai-603103</a><br>
-                <p class="mb-0 "><i class=" fa fa-light fa-phone"></i><a class="text-white">
-                        Phone:+91-4467404000</a><br>
-                <p class="mb-0 "> <i class="fa fa-light fa-envelope"></i><a class="text-white">
-                        Email:info-india@aspiresys.com</a><br>
-            </div>
-            <div class="col-md-4 text-center text-md-end">
-                <p class="mb-0">Designed by <a class="text-white border-bottom">Team Aurora</a><br>
+<div class="container-fluid text-light footer" style="background: #051225;">
+	<div class="container">
+		<div class="row g-0">
+			<div class="col-md-4 text-center text-md-start">
+				<p class="mb-md-0">&copy; <a class="text-white border-bottom">Aspire Overflow</a>. All Rights
+					Reserved.</p>
+			</div>
+			<div class="col-md-4 text-center text-md-middle">
+				<p class="mb-0 "> <a class="text-white">Address: 1/D-1,SIPCOT IT
+						PARK,Siruseri,Chennai-603103</a><br>
+				<p class="mb-0 "><i class=" fa fa-light fa-phone"></i><a class="text-white">
+						Phone:+91-4467404000</a><br>
+				<p class="mb-0 "> <i class="fa fa-light fa-envelope"></i><a class="text-white">
+						Email:info-india@aspiresys.com</a><br>
+			</div>
+			<div class="col-md-4 text-center text-md-end">
+				<p class="mb-0">Designed by <a class="text-white border-bottom">Team Aurora</a><br>
 
-                </p>
-            </div>
-        </div>
-    </div>
+				</p>
+			</div>
+		</div>
+	</div>
 </div>
+
 <!-- Footer End -->
 
 
@@ -152,5 +102,4 @@
 
 <!-- Template Javascript -->
 <script src="js/main.js"></script>
-
 </html>
