@@ -1,17 +1,24 @@
-.bcontent {
-    margin-left: 10px;
-}
-.cursor:hover {
-    color: blue
-}
 
-.cursor {
-    cursor: pointer;
+/*
+ * Basic button style
+ */
+.btn {
+  
+  border-radius: 3px;
  
+
+  height: 18px;
+  line-height: 18px;
+  padding: 0 8px;
+  position: relative;
+
+  font-size: 12px;
+  text-decoration: none;
+  
 }
-.bg-white{
-    margin-right: 200px;
-}
+/*
+ * Counter button style
+ */
 .btn-counter { margin-right: 39px; }
 .btn-counter:after,
 .btn-counter:hover:after { text-shadow: none; }
@@ -35,7 +42,7 @@
   background-color: #eee;
   border: 1px solid #d3d3d3;
   border-right: 0;
-  border-top: 0;
+  border-top: 50;
   content: '';
   position: absolute;
   right: -13px;
@@ -48,22 +55,62 @@
 /*
  * Custom styles
  */
-.btn {
+.btn{
+  background-color: #dbdbdb;
+  color:#3699f6;
+}
+.form-control1{
+  
+  resize:none;
+    width: 900px;
+    height: 150px;
+    margin-left:50px;
+}
+.collapsible {
   background-color: #dbdbdb;
   border-color: #bbb;
-  color: #666;
+  color: #3699f6;
+   cursor: pointer;
+   padding: 2px;
+   width: 30px;
+   margin-left:20px;
+   display:inline-block;
+   border: none;
+   text-align:center;
+   outline: none;
+   font-size: 15px;
+   border-right: 0;
+  border-top: 80;
+ }
+
+
+.colcontent {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color:white;
 }
-.btn:hover,
-.btn.active {
-  text-shadow: 0 1px 0 #b12f27;
-  background-color: #f64136;
-  border-color: #b12f27;
-}
-.btn:active { box-shadow: 0 0 5px 3px rgba(0,0,0,0.2) inset; }
-.btn span { color: #f64136; }
-.btn:hover, .btn:hover span,
-.btn.active, .btn.active span { color: #eeeeee; }
-.btn:active span {
-  color: #b12f27;
-  text-shadow: 0 1px 0 rgba(255,255,255,0.3);
-}
+.style {
+  background-color: #dbdbdb;
+  border-color: #bbb;
+  color: #3699f6;
+   cursor: pointer;
+   padding: 2px;
+   width: 30px;
+   margin-left:20px;
+   display:inline-block;
+   border: none;
+   text-align:center;
+   outline: none;
+   font-size: 15px;
+ }
+ 
+ .btn-1{
+  margin-left:71%;
+  background: rgb(0,172,238);}
+  .custom-btn.btn-1{
+  border: none;
+  color: white;
+  width: 150px;
+     
+  }

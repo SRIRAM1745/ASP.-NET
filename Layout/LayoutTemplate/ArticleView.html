@@ -22,13 +22,15 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/ArticleView.css" rel="stylesheet">
+    <link href="css/Filter.css" rel="stylesheet">
 </head>
 <header>
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-5 py-3 py-lg-0">
         <a class="navbar-brand p-0">
             <a>
-                <img class="LogoImg" src="img/logo.png">
+                <img class="LogoImg" src="img/Logo.png">
             </a>
             <h1 class="m-0 text-primary">Aspire Overflow</h1>
         </a>
@@ -37,32 +39,32 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto py-0">
-                <a href="index.html" class="nav-item nav-link active">Home</a>
-                <a href="about.html" class="nav-item nav-link">Articles</a>
-                <a href="service.html" class="nav-item nav-link">Queries</a>
+                <a href="Home.html" class="nav-item nav-link active">Home</a>
+                <a href="ViewArticles.html" class="nav-item nav-link">Articles</a>
+                <a href="ViewQueries.html" class="nav-item nav-link">Queries</a>
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">My Profile</a>
                     <div class="dropdown-menu m-0">
-                        <a href="price.html" class="dropdown-item">My Articles</a>
+                        <a href="MyArticles.html" class="dropdown-item">My Articles</a>
                         <ul class="dropdown-menu dropdown-submenu">
                             <li>
-                                <a class="dropdown-item" href="#">Create Articles</a>
+                                <a class="dropdown-item" href="CreateArticle.html">Create Articles</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">My Articles</a>
+                                <a class="dropdown-item" href="MyArticles.html">My Articles</a>
                             </li>
                         </ul>
-                        <a href="team.html" class="dropdown-item">My Queries</a>
+                        <a href="myqueries.html" class="dropdown-item">My Queries</a>
                         <ul class="dropdown-menu dropdown-submenu">
                             <li>
-                                <a class="dropdown-item" href="#">Raise Query</a>
+                                <a class="dropdown-item" href="RaiseQuery.html">Raise Query</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">My Queries</a>
+                                <a class="dropdown-item" href="myqueries.html">My Queries</a>
                             </li>
                         </ul>
-                        <a href="testimonial.html" class="dropdown-item">View Profile</a>
-                        <a href="appointment.html" class="dropdown-item">Logout</a>
+                        <a href="myprofile.html" class="dropdown-item">View Profile</a>
+                        <a href="login.html" class="dropdown-item">Logout</a>
                     </div>
                 </div>
             </div>
@@ -89,107 +91,122 @@
                 </ol>
             </nav>
         </div>
+</div>
+<!-- Breadcrums End-->
+<div class="container p-5 my-5 border">
+    <div class="text-center">
+        <h1>Web API</h1>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">Author name:Raghunath</div>
+        <div class="panel-body">Date:22/04/22</div>
+        <div class="text-center">
+            <img src="img/ar.jpg" class="img-fluid" />
         </div>
-        <!-- Breadcrums End-->
-        <div class="container p-5 my-5 border">
-            <div class="text-center">
-                <h1>Web API</h1>
-            </div>
-            <div class="panel panel-default">
-                <div class="panel-heading">Author name:Raghunath</div>
-                <div class="panel-body">Date:22/04/22</div>
-                <div class="text-center">
-                    <img src="img/ar.jpg" class="img-fluid" />
+        <style>
+            #more {
+                display: none;
+            }
+        </style>
+        <p> The ASP.NET Web API is an extensible framework for building HTTP based services that can be accessed
+            in
+            different applications on different platforms such as web, windows, mobile etc. It works more or
+            less the
+            same way as ASP.NET MVC web application except that it sends data as a response instead of html
+            view. It is
+            like a webservice or WCF service but the exception is that it only supports HTTP protocol.
+            <span id="dots">...</span><span id="more">The ASP.NET Web API is an extensible framework for building
+                HTTP based services that can be accessed in different applications on different platforms such
+                as web, windows, mobile etc. It works more or less the
+                same way as ASP.NET MVC web application except that it sends data as a response instead of html
+                view. It is
+                like a webservice or WCF service but the exception is that it only supports HTTP protocol.The
+                ASP.NET Web API is an extensible framework for building
+                HTTP based services that can be accessed in different applications on different platforms such
+                as web, windows, mobile etc. It works more or less the
+                same way as ASP.NET MVC web application except that it sends data as a response instead of html
+                view. It is
+                like a webservice or WCF service but the exception is that it only supports HTTP protocol.The
+                ASP.NET Web API is an extensible framework for building
+                HTTP based services that can be accessed in different applications on different platforms such
+                as web, windows, mobile etc. It works more or less the
+                same way as ASP.NET MVC web application except that it sends data as a response instead of html
+                view. It is
+                like a webservice or WCF service but the exception is that it only supports HTTP protocol.The
+                ASP.NET Web API is an extensible framework for building
+                HTTP based services that can be accessed in different applications on different platforms such
+                as web, windows, mobile etc. It works more or less the
+                same way as ASP.NET MVC web application except that it sends data as a response instead of html
+                view. It is
+                like a webservice or WCF service but the exception is that it only supports HTTP protocol.The
+                ASP.NET Web API is an extensible framework for building
+                HTTP based services that can be accessed in different applications on different platforms such
+                as web, windows, mobile etc. It works more or less the
+                same way as ASP.NET MVC web application except that it sends data as a response instead of html
+                view. It is
+                like a webservice or WCF service but the exception is that it only supports HTTP protocol.The
+                ASP.NET Web API is an extensible framework for building
+                HTTP based services that can be accessed in different applications on different platforms such
+                as web, windows, mobile etc. It works more or less the
+                same way as ASP.NET MVC web application except that it sends data as a response instead of html
+                view. It is
+                like a webservice or WCF service but the exception is that it only supports HTTP protocol.The
+                ASP.NET Web API is an extensible framework for building
+                HTTP based services that can be accessed in different applications on different platforms such
+                as web, windows, mobile etc. It works more or less the
+                same way as ASP.NET MVC web application except that it sends data as a response instead of html
+                view. It is
+                like a webservice or WCF service but the exception is that it only supports HTTP protocol.The
+                ASP.NET Web API is an extensible framework for building
+                HTTP based services that can be accessed in different applications on different platforms such
+                as web, windows, mobile etc. It works more or less the
+                same way as ASP.NET MVC web application except that it sends data as a response instead of html
+                view. It is
+                like a webservice or WCF service but the exception is that it only supports HTTP protocol.The
+                ASP.NET Web API is an extensible framework for building
+                HTTP based services that can be accessed in different applications on different platforms such
+                as web, windows, mobile etc. It works more or less the
+                same way as ASP.NET MVC web application except that it sends data as a response instead of html
+                view. It is
+                like a webservice or WCF service but the exception is that it only supports HTTP protocol.The
+                ASP.NET Web API is an extensible framework for building
+                HTTP based services that can be accessed in different applications on different platforms such
+                as web, windows, mobile etc. It works more or less the
+                same way as ASP.NET MVC web application except that it sends data as a response instead of html
+                view. It is
+                like a webservice or WCF service but the exception is that it only supports HTTP protocol.The
+                ASP.NET Web API is an extensible framework for building
+                HTTP based services that can be accessed in different applications on different platforms such
+                as web, windows, mobile etc. It works more or less the
+                same way as ASP.NET MVC web application except that it sends data as a response instead of html
+                view. It is
+                like a webservice or WCF service but the exception is that it only supports HTTP
+                protocol.
+            </span>
+
+        </p>
+        <button onclick="myFunction()" id="myBtn">Click here to view full article</button>
+    </div>
+    <br>
+    <hr>
+    <br>
+
+    
+        <div class="container">
+            <button type="button" class="btn btn-counter multiple-count heart" data-count="0"><span>&#x2764;</span></a>
+                <button type="button" class=" fa fa-share style"></button>
+                <button type="button" class="fa fa-comment collapsible"></button>
+                <div class="colcontent ">
+                    <br>
+                    <textarea class="form-control1 "> </textarea>
+                    <div class="mt-2 text-right  "><button class="custom-btn btn-1" id="button-code" type="button">Post
+                            comment</button> </div>
                 </div>
-                <style>
-                    #more {
-                        display: none;
-                    }
-                    </style>
-                <p> The ASP.NET Web API is an extensible framework for building HTTP based services that can be accessed
-                    in
-                    different applications on different platforms such as web, windows, mobile etc. It works more or
-                    less the
-                    same way as ASP.NET MVC web application except that it sends data as a response instead of html
-                    view. It is
-                    like a webservice or WCF service but the exception is that it only supports HTTP protocol.
-                    <span
-                        id="dots">...</span><span id="more">The ASP.NET Web API is an extensible framework for building
-                        HTTP based services that can be accessed in different applications on different platforms such
-                        as web, windows, mobile etc. It works more or less the
-                        same way as ASP.NET MVC web application except that it sends data as a response instead of html
-                        view. It is
-                        like a webservice or WCF service but the exception is that it only supports HTTP protocol.The
-                        ASP.NET Web API is an extensible framework for building
-                        HTTP based services that can be accessed in different applications on different platforms such
-                        as web, windows, mobile etc. It works more or less the
-                        same way as ASP.NET MVC web application except that it sends data as a response instead of html
-                        view. It is
-                        like a webservice or WCF service but the exception is that it only supports HTTP protocol.The
-                        ASP.NET Web API is an extensible framework for building
-                        HTTP based services that can be accessed in different applications on different platforms such
-                        as web, windows, mobile etc. It works more or less the
-                        same way as ASP.NET MVC web application except that it sends data as a response instead of html
-                        view. It is
-                        like a webservice or WCF service but the exception is that it only supports HTTP protocol.The
-                        ASP.NET Web API is an extensible framework for building
-                        HTTP based services that can be accessed in different applications on different platforms such
-                        as web, windows, mobile etc. It works more or less the
-                        same way as ASP.NET MVC web application except that it sends data as a response instead of html
-                        view. It is
-                        like a webservice or WCF service but the exception is that it only supports HTTP protocol.The
-                        ASP.NET Web API is an extensible framework for building
-                        HTTP based services that can be accessed in different applications on different platforms such
-                        as web, windows, mobile etc. It works more or less the
-                        same way as ASP.NET MVC web application except that it sends data as a response instead of html
-                        view. It is
-                        like a webservice or WCF service but the exception is that it only supports HTTP protocol.The
-                        ASP.NET Web API is an extensible framework for building
-                        HTTP based services that can be accessed in different applications on different platforms such
-                        as web, windows, mobile etc. It works more or less the
-                        same way as ASP.NET MVC web application except that it sends data as a response instead of html
-                        view. It is
-                        like a webservice or WCF service but the exception is that it only supports HTTP protocol.The
-                        ASP.NET Web API is an extensible framework for building
-                        HTTP based services that can be accessed in different applications on different platforms such
-                        as web, windows, mobile etc. It works more or less the
-                        same way as ASP.NET MVC web application except that it sends data as a response instead of html
-                        view. It is
-                        like a webservice or WCF service but the exception is that it only supports HTTP protocol.The
-                        ASP.NET Web API is an extensible framework for building
-                        HTTP based services that can be accessed in different applications on different platforms such
-                        as web, windows, mobile etc. It works more or less the
-                        same way as ASP.NET MVC web application except that it sends data as a response instead of html
-                        view. It is
-                        like a webservice or WCF service but the exception is that it only supports HTTP protocol.The
-                        ASP.NET Web API is an extensible framework for building
-                        HTTP based services that can be accessed in different applications on different platforms such
-                        as web, windows, mobile etc. It works more or less the
-                        same way as ASP.NET MVC web application except that it sends data as a response instead of html
-                        view. It is
-                        like a webservice or WCF service but the exception is that it only supports HTTP protocol.The
-                        ASP.NET Web API is an extensible framework for building
-                        HTTP based services that can be accessed in different applications on different platforms such
-                        as web, windows, mobile etc. It works more or less the
-                        same way as ASP.NET MVC web application except that it sends data as a response instead of html
-                        view. It is
-                        like a webservice or WCF service but the exception is that it only supports HTTP protocol.The
-                        ASP.NET Web API is an extensible framework for building
-                        HTTP based services that can be accessed in different applications on different platforms such
-                        as web, windows, mobile etc. It works more or less the
-                        same way as ASP.NET MVC web application except that it sends data as a response instead of html
-                        view. It is
-                        like a webservice or WCF service but the exception is that it only supports HTTP
-                        protocol.
-                    </span>
-                    
-                </p>
-                <button onclick="myFunction()" id="myBtn">Click here to view full article</button>
-            </div>
+
         </div>
-        <p>
-            <a href="#" title="Love it" class="btn btn-counter multiple-count align text-center" data-count="0"><span>&#x2764;</span></a>
-</boady> 
+    
+</div>
+</body>
 <!-- Footer Start -->
 <div class="container-fluid text-light  float-end" style="background: #051225;">
     <div class="container">

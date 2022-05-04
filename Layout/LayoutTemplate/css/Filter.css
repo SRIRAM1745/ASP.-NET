@@ -1,0 +1,49 @@
+.card{
+    width:auto;
+    height:auto;
+    padding:10px;
+    margin-bottom:40px;
+    text-align: center;
+    align-items: center;
+    margin-top:auto;
+    border-radius: 20px;
+    background-color: skyblue;
+}
+
+.labeltext{
+    font-weight: bolder;
+    padding-left:10px;
+}
+
+.custom-btn {
+    width: auto;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+    }
+  
+  /* 1 */
+  .btn-1 {
+    background: rgb(0,172,238);
+    border: none;
+  }
+  .btn-1:hover {
+     background:  rgb(4, 149, 206);
+     
+  }
+  .page-title{
+    text-align: center;
+    padding-bottom:5px;
+  }
